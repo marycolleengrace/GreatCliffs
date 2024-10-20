@@ -22,7 +22,8 @@
 
 </head>
 
-<body id="contact" onLoad="disableButton(true)">
+<!--<body id="contact" onLoad="disableButton(true)">-->
+    <body id="contact">
     <!-- Wrap Container Area -->
     <div id="container">
         <div class="main-header sticky-top ">
@@ -127,9 +128,11 @@
                             <input type="text" name="randomcode" placeholder="Enter characters" id="codeentered">
                             <p id="codes"></p>
                         </div>
-                        <button class="btn btn-primary" type="submit" id="sendButton" >
+                        <div class = "button">
+                        <button class="btn btn-primary" type="submit" id="submit" id="sendButton" value="Inquire">
                             <i class="fa fa-send-o"></i> Send
                         </button>
+                        </div>
                     </div>
 
                     <!-- <div class="button"> -->
@@ -194,7 +197,7 @@
     <!-- Wrap Container End -->
 
     <!-- randomcodes -->
-    <script src="js/randomcodes.js"></script>
+    <script src="js/randomcode.js"></script>
 
     <!-- Partners -->
     <!-- <script src="js/site_scripts.js"></script> -->
